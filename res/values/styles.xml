@@ -90,8 +90,8 @@
     </style>
 
     <style name="LaunchScreenTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
-        <item name="android:windowBackground">@color/background_primary</item>
-        <item name="android:colorPrimary">@color/primary_color_dark</item>
+	    <item name="android:forceDarkAllowed">true</item>
+        <item name="android:colorPrimary">@color/background_primary</item>
         <item name="android:colorPrimaryDark">@color/primary_color</item>
     </style>
 
