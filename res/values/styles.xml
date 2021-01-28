@@ -90,9 +90,9 @@
     </style>
 
     <style name="LaunchScreenTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
-        <item name="android:windowBackground">@drawable/quantum_launchscreen_contacts</item>
-        <item name="colorPrimaryDark">@color/primary_color_dark</item>
-        <item name="colorPrimary">@color/primary_color</item>
+        <item name="android:windowBackground">@color/background_primary</item>
+        <item name="android:colorPrimary">@color/primary_color_dark</item>
+        <item name="android:colorPrimaryDark">@color/primary_color</item>
     </style>
 
     <style name="PeopleActivityTheme" parent="@style/PeopleThemeAppCompat">
